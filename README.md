@@ -53,4 +53,3 @@ https://github.com/user-attachments/assets/73a2814f-771c-448e-8b54-291f33982792
 - **Language:** Java
 - **Platform:** Native Android (Android Studio)
 - **Backend & Cloud Services:** Firebase (Cloud Firestore & Authentication)
-- **UI
