@@ -66,7 +66,7 @@ public class AccountPage extends AppCompatActivity {
         btnLogout.setOnClickListener(v -> {
             mAuth.signOut();
             Toast.makeText(AccountPage.this, "Sessão terminada", Toast.LENGTH_SHORT).show();
-            Intent goLoginPage = new Intent(AccountPage.this, MainActivity.class);
+            Intent goLoginPage = new Intent(AccountPage.this, LoginActivity.class);
             startActivity(goLoginPage);
             finish();
         });

@@ -18,7 +18,7 @@
         android:padding="20dp"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:text="Nome:"
+        android:text="@string/register_name_label"
         android:textColor="@color/text_primary"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="256dp"
@@ -27,9 +27,9 @@
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="name"
+        android:hint="@string/register_name_hint"
         android:inputType="textPersonName"
         android:padding="16dp"
         android:textColor="@color/text_primary"
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="Availability:"
+        android:text="@string/register_availability_label"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/text_primary"
@@ -52,12 +52,21 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Availability"
-        android:inputType="textPersonName"
+        android:contentDescription="@string/register_availability_label"
         android:padding="16dp"
         tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="353dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/register_continue"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/primary"
+        app:cornerRadius="10dp" />
 
 </LinearLayout>
