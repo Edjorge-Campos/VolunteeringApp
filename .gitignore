@@ -20,5 +20,6 @@ local.properties
 # Ficheiros sensíveis e builds locais
 google-services.json
 app/google-services.json
+projeto_completo.txt
 app/build/
 build/
